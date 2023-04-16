@@ -1,6 +1,6 @@
 function generateKey (a,b) {
     let randomParameter = '';
-    for (let i = 0; i<=a; i++) {
+    for (let i = 0; i<a; i++) {
     randomParameter += b[Math.floor(Math.random() * b.length)];
     }
     return randomParameter
