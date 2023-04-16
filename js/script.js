@@ -1,7 +1,7 @@
-function generateKey (a,b) {
+function generateKey (len, char) {
     let randomParameter = '';
-    for (let i = 0; i<a; i++) {
-    randomParameter += b[Math.floor(Math.random() * b.length)];
+    for (let i = 0; i<len; i++) {
+    randomParameter += char[Math.floor(Math.random() * char.length)];
     }
     return randomParameter
 }
